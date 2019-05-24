@@ -1,0 +1,21 @@
+
+.heading{
+    padding-bottom: 30px;
+}
+.cont{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.width_{
+    width:80%;
+}
+#heading {
+    color:green;
+    font-weight:bold;
+    border-bottom:3px solid green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:39px;
+}
+#width{
+    width:70%;
+}

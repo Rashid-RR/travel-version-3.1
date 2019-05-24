@@ -1,0 +1,11 @@
+﻿.navbar{
+    font-size:14px !important;
+}
+    .navText:hover {
+        background-color:white !important;
+        color: #32b67a !important;
+    }
+
+    .navText:active {
+        color: #32b67a !important;
+    }

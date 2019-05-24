@@ -1,0 +1,125 @@
+﻿.upperbar {
+    background: #32b67a;
+    height: 45px;
+    width: 100%;
+    line-height:45px;
+}
+    .upperbar .header_bar .fa{
+        font-size: 15px;
+    }
+    .upperbar .header_bar .fa:hover {
+        font-size: 17px;
+        cursor:pointer;
+    }
+    .header-b {
+        padding: 50px 0 50px 0;
+        margin: 0 auto;
+    }
+
+.site-branding {
+    float: left;
+}
+
+.logo_bar {
+    padding: 40px 0;
+}
+
+.header-b .right {
+    float: right;
+    margin: 9px 0 0;
+    text-align: right;
+}
+
+    .header-b .right .tel-link {
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        transition: linear 0.2s;
+        display: inline-block;
+    }
+
+.h1 {
+    font-size: 2.5rem;
+}
+
+.site-branding .site-description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.071em;
+    margin: 0 0 0 8px;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.site-branding .site-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.33em;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}
+
+.SiteTitlecolor {
+    color: black;
+    transition: linear 0.2s;
+    text-decoration: none;
+}
+
+    .SiteTitlecolor:hover {
+        transition: linear 0.2s;
+        color: #32b67a;
+        text-decoration: none;
+    }
+
+
+._container {
+    padding: 0 15px;
+}
+
+.site-branding .custom-logo-link img {
+    vertical-align: top;
+}
+
+.text-logo {
+    display: inline-block;
+}
+
+.phone-label {
+    line-height: 1.33em;
+    display: block;
+    font-size: 14px;
+    letter-spacing: -0.05em;
+    margin: 0 0 3px;
+}
+
+.header-b .right .tel-link {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    transition: linear 0.2s;
+    text-decoration-color: #32b67a;
+    line-height: 1.37em;
+}
+
+.custom-logo-link {
+    color: #32b67a;
+}
+
+.phone {
+    color: #32b67a;
+}
+.pull_right{
+    float:right;
+    font-size:x-large;
+}
+.pull_right2{
+    float:right;
+}
+.th:hover{
+    text-decoration:none;
+}
+.header_bar{
+    line-height:40px;
+}

@@ -1,0 +1,105 @@
+/********Used Css********/
+.Content{
+    font-family:Montserrat !important;
+}
+.Rang {
+    color: #32b67a;
+}
+
+.page-header .page-title {
+    font-size: 40px;
+    line-height: 1.125em;
+    color: #111;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+    .page-header .page-title::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: #32b67a;
+    }
+
+/*********************************/
+
+
+
+
+
+.row2 {
+    text-align: center;
+    text-justify:center;
+
+}
+
+.text{
+  color: red;
+  position: absolute;
+  text-align: center;
+  bottom : 435%;
+
+  
+  
+}
+
+.text2{
+  color: red;
+  position: absolute;
+  bottom: 185px;
+  text-justify: center;
+  padding: 0 0 0 10%; 
+}
+
+.text3{
+  color: red;
+  position: absolute;
+  bottom: 220%;
+  text-justify: center;
+  padding: 0 0 0 10%; 
+  
+}
+
+.vid{
+  width: 100%;
+}
+
+
+
+.font{
+  font-family: 'Lato', sans-serif ;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.8em;
+  
+  
+}
+/* .font3{
+  font-family: 'Lato', sans-serif ;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.8em;
+  /* margin-left: .85em; */
+
+
+.pdl{
+  padding-left: 24px;
+}
+.holla{
+    font-size: 22px;
+    color: #404040;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.3em;
+    margin-bottom: 9px;
+  
+    
+}

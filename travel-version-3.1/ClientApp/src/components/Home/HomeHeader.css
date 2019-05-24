@@ -1,0 +1,115 @@
+﻿
+.backGround {
+    background: url(home.jpg) center no-repeat;
+    background-size: cover;
+    height: 400px;
+    vertical-align: top;
+}
+
+.bannerForm {
+    font-family: Montserrat;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+    text-shadow: 10px 10px 10px black;
+}
+
+    .bannerForm h2 {
+        font-size: 58px;
+    }
+
+    .bannerForm p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .bannerForm Form {
+        max-width: 640px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        padding: 15px;
+        text-align: left;
+    }
+
+        .bannerForm Form input[type="text"] {
+            width: 450px;
+        }
+
+.seachInputbtn {
+    width: 149px;
+    background-color: #32b67a;
+    border: none;
+    color: white;
+}
+
+    .seachInputbtn:hover {
+        background-color: #32b67a;
+        border: none;
+        color: white;
+    }
+
+
+.trip-search {
+    margin: -85px 0 60px;
+    position: relative;
+    z-index: 1;
+}
+    
+    .trip-search form {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+        .trip-search form .class-wte-advanced-search-wrapper {
+            margin:0;
+        }
+        .trip-search form .advanced-search-field {
+            position:relative;
+        }
+        .trip-search form .advanced-search-field .customSelect {
+            position: relative;
+            padding-left: 20px;
+        }
+        .trip-search form .advanced-search-field select {
+            width: 100%;
+            border: 0;
+            font-weight: 500;
+            color: #111;
+        }
+        .trip-search form .advanced-search-field p {
+            font-size: 13px;
+            font-weight: 400;
+            margin: 0 0 5px;
+            color: rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+        }
+    .trip-search h4 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 10px 26px;
+        line-height: 1.4em;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+#advanced-search-field-submit input[type="submit"] {
+    border-radius: 0 5px 5px 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border-color: #32b67a;
+    background: #32b67a;
+    line-height: 26px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #32b67a;
+    cursor: pointer;
+}
+#advanced-search-field-submit input[type="submit"]:hover{
+    opacity:0.8;
+}
+
+.trip-search form .trip-destination, .trip-search form .trip-activities {
+    padding: 19px 25px;
+}

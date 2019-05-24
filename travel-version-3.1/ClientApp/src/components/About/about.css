@@ -1,0 +1,404 @@
+*:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    font-family:Montserrat !important;
+}
+  
+  .services {
+    padding: 80px 0;
+    background: #f6f6f6;
+  }
+  
+  .section {
+    display: block;
+  }
+  
+  
+  .services .section-header {
+    max-width: 660px;
+    margin: 0 auto 60px;
+    text-align: center;
+    text-align: center;
+  }
+  
+  .services .section-header .section-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 16px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #111;
+  }
+  
+  .section-title {
+    clear: both;
+    display: block;
+  }
+  
+  .site-header .header-t, .header-two .nav-holder .holder, .header-three .nav-holder, .about .text-holder .title:after, .activities .section-header .section-title:after, .popular-destination .section-header .section-title:after, .about .text-holder .btn-more:hover, .about .text-holder .btn-more:focus, .popular-destination .grid .col .price-holder, .popular-destination .btn-holder .btn-more:hover, .popular-destination .btn-holder .btn-more:focus, .our-features .section-header .section-title:after, .featured-trip .section-header .section-title:after, .featured-trip .grid .img-holder .price-holder, .featured-trip .grid .text-holder .btn-more:hover, .featured-trip .grid .text-holder .btn-more:focus, .featured-trip .btn-holder .btn-more:hover, .featured-trip .btn-holder .btn-more:focus, .stats .section-header .section-title:after, .stats .grid .col .raratheme-sc-holder .hs-counter:after, .our-deals .section-header .section-title:after, .our-deals .grid .img-holder .price-holder, .our-deals .grid .text-holder .btn-more:hover, .our-deals .grid .text-holder .btn-more:focus, .our-deals .btn-holder .btn-more:hover, .our-deals .btn-holder .btn-more:focus, .testimoinal .section-header .section-title:after, #testimonial-carousel .owl-dots .active span, .blog-section .section-header .section-title:after, .blog-section .grid .post .img-holder .cat-links a, .blog-section .btn-holder .btn-more:hover, .blog-section .btn-holder .btn-more:focus, .clients .section-header .section-title:after, .widget .widget-title:after, .widget_calendar caption, .widget_calendar table tbody td a, .widget_travel_agency_featured_widget .readmore:hover, .widget_travel_agency_featured_widget .readmore:focus, #primary .post .entry-footer .social-networks li a:hover, #primary .post .entry-footer .social-networks li a:focus, .pagination a:after, .pagination span:after, #load-posts a:hover, #load-posts a:focus, #primary .post .entry-content .pull-left:before, #primary .page .entry-content .pull-left:before, #primary .post .entry-content .pull-right:before, #primary .page .entry-content .pull-right:before, .related-post .title:after, .related-post .col .img-holder .cat-links a, .comments-area .comments-title:after, .comments-area .comment-reply-title:after, .page-header .page-title:after, .page-template-team .page-header .page-title:after, .team-holder .item .text-holder, .page-template-about .about-intro .text-holder .title:after, .services .section-header .section-title:after, .services .grid .col .text-holder .service-title:after, .team-section .section-header .section-title:after, .page-template-contact .contact-info .grid .title:after, .contact-form-section .section-header .section-title:after, .archive .trip-content-area .grid .img-holder .price-holder, .archive .trip-content-area .grid .text-holder .btn-more:hover, .archive .trip-content-area .grid .text-holder .btn-more:focus, .archive .trip-content-area .grid .text-holder .wp-travel-engine-cart:hover, .archive .trip-content-area .grid .text-holder .wp-travel-engine-cart:focus, .single-trip .trip-post .entry-header .entry-title:after, #tabs-container .tab-inner-wrapper .tab-anchor-wrapper .nav-tab-active, .itinerary-row:before, #tabs-container .tab-content h1:after, #tabs-container .tab-content h2:after, #tabs-container .tab-content h3:after, #tabs-container .tab-content h4:after, #tabs-container .tab-content h5:after, #tabs-container .tab-content h6:after, .trip-content-area .widget-area .trip-price .price-holder, .wp-travel-engine-order-form-wrapper .trip-title, .trip-search-result #primary .advanced-search-wrapper .sidebar ul li [type="checkbox"]:not(:checked)+span:after, .trip-search-result #primary .advanced-search-wrapper .sidebar ul li [type="checkbox"]:checked+span:after, .trip-search-result #primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-slider-horizontal .ui-slider-range, .trip-search-result #primary .advanced-search-wrapper .wte-advanced-search-wrap .grid .text-holder .btn-more:hover, .trip-search-result #primary .advanced-search-wrapper .wte-advanced-search-wrap .grid .text-holder .btn-more:focus, .trip-search-result #primary .advanced-search-wrapper .wte-advanced-search-wrap .grid .text-holder .wp-travel-engine-cart:hover, .trip-search-result #primary .advanced-search-wrapper .wte-advanced-search-wrap .grid .text-holder .wp-travel-engine-cart:focus, .single-trip .related-trips .section-header .section-title:after, .single-trip .related-trips .grid .col .img-holder .price-holder, .single-trip .related-trips .grid .col .text-holder .btn-holder .btn-more:hover, .single-trip .related-trips .grid .col .text-holder .btn-holder .btn-more:focus, .trip-search form .advanced-search-field-submit input[type="submit"]:hover, .trip-search form .advanced-search-field-submit input[type="submit"]:focus, .trip-search-result #primary .advanced-search-wrapper .sidebar h2:after, .trip-search-result #primary .advanced-search-wrapper .wte-advanced-search-wrap .grid .img-holder .price-holder, .group-discount-pop .popup-inner a[data-popup-close="popup-1"], .group-discount-pop h3:after, .banner .form-holder a.btn-banner:hover {
+    background: #32b67a;
+  }
+  
+  .services .section-header .section-title:after {
+    background: #32b67a;
+    content: '';
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    width: 90px;
+    transform: translateX(-50%);
+  }
+  
+  .services .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .container:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .services .grid .col {
+    width: 25%;
+    padding: 0 15px;
+    margin: 0 0 30px;
+  }
+  
+  .services .grid .col .icon-holder {
+    margin: 0 0 20px;
+  }
+  
+  .imgz {
+    height: auto;
+    max-width: 100%;
+    border: 0;
+    align-content:center;
+  }
+  
+  .services .grid .col .icon-holder img {
+    vertical-align: top;
+  }
+  
+  .services .grid .col .text-holder .service-title {
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 1.272em;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #111;
+    margin: 0 0 20px;
+    position: relative;
+    padding: 0 0 10px;
+  }
+  
+  .services .grid .col .text-holder .service-title:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: #32b67a;
+    font-size: 22px;
+    line-height: 1.272em;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #111;
+    margin: 0 0 20px;
+    position: relative;
+    padding: 0 0 10px;
+  }
+  
+  .element {
+    background: url(./bookWithUs.jpg) no-repeat;
+  }
+  
+  .our-features {
+    background-size: cover!important;
+    background-attachment: fixed!important;
+    position: relative;
+    min-height: 600px;
+  }
+  
+  .section {
+    display: block;
+  }
+  
+  .our-features:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(0,0,0,.5);
+  }
+  
+  .our-features:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .header {
+    display: block;
+  }
+  
+  .our-features .section-header .section-title {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.25em;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 10px;
+    margin: 0 0 16px;
+  }
+  
+  .our-features .section-header {
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    padding: 0 4em;
+    transform: translateY(-50%);
+    color: #fff;
+  }
+  
+  .our-features .section-header .section-title:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 90px;
+    height: 3px;
+    background: #32b67a;
+    transform: translateX(-50%);
+  }
+  
+  .our-features .features-holder {
+    float: right;
+    width: 60%;
+    background: #fff;
+    padding: 80px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .our-features .features-holder .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .our-features .features-holder .col {
+    width: 50%;
+    padding: 0 15px;
+    margin: 0 0 10px;
+  }
+  
+  .our-features .features-holder .col:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .our-features .features-holder .col .icon-holder {
+    float: left;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #3fb362;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 60px;
+    color: #32b67a;
+    position: relative;
+  }
+.our-features .features-holder .col p{
+    padding-left:23px;
+}
+    .our-features .features-holder .col .icon-holder svg {
+        position: absolute;
+        top: 17px;
+        left: 17px;
+    }
+  
+  .svg:not(:root) {
+    overflow: hidden;
+  }
+  
+  .our-features .features-holder .col .icon-holder circle {
+    fill: transparent;
+    stroke-dasharray: 320;
+    stroke-width: 1;
+    transition: stroke-dashoffset 1s;
+    animation-play-state: running;
+    stroke-dashoffset: 100;
+  }
+  
+  :not(svg) {
+    transform-origin: 0px 0px;
+  }
+  
+  .svg:not(:root) {
+    overflow: hidden;
+  }
+  
+  .our-features .features-holder .col .icon-holder svg:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .svg:not(:root).svg-inline--fa {
+    overflow: visible;
+  }
+  
+  .svg-inline--fa.fa-w-16 {
+    width: 1em;
+  }
+  
+  .svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
+  }
+  
+  .our-features .features-holder .col .text-holder .title {
+    font-family: Montserrat;
+    font-size: 22px;
+    margin: 0 0 7px;
+    font-weight: 500;
+    color: #111;
+  }
+  
+  .our-features .features-holder .col .text-holder {
+      padding: 0px;
+    overflow: hidden;
+  }
+  
+  .team-section {
+    padding: 80px 0;
+  }
+  
+  .team-section .section-header {
+    max-width: 660px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  
+  .team-section .section-header .section-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 16px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #111;
+  }
+  
+  .team-section .section-header .section-title:after {
+    background: #32b67a;
+    content: '';
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    width: 90px;
+    transform: translateX(-50%);
+  }
+  
+  .page-template-about .team-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -17px;
+  }
+  
+  .team-holder .item {
+    padding: -1px 17px;
+    margin-bottom: 35px;
+  }
+  
+  .page-template-about .team-holder .item {
+    width: 25%;
+  }
+  
+  .team-holder .holder {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .team-holder .item img {
+    vertical-align: top;
+    width: 100%;
+  }
+  
+  .team-holder .item .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    color: #fff;
+    padding: 23px;
+  }
+  
+  .team-holder .item .text .name {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.444em;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .team-holder .item .text .designation {
+    font-size: 14px;
+  }
+  
+  .team-holder .item .text-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #32b67a;
+    padding: 20px;
+    transition: ease-in-out 0.4s;
+    opacity: 0;
+  }
+  
+  .team-holder .item .text-holder .holder {
+    max-height: 257px;
+    overflow: hidden;
+  }
+  
+  .team-holder .item .text-holder .btn-more {
+    font-size: 40px;
+    color: #fff;
+    transition: linear 0.2s;
+    display: inline-block;
+    line-height: 0.7em;
+  }
+  
+  .page-template-about .team-holder .item {
+    width: 25%;
+  }
+.heading_ {
+    color: #32b67a;
+}
