@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { Row, Col } from 'reactstrap';
+import {} from 'reactstrap';
 import "./Header.css";
 import img from './Logo.jpg';
 import { Link } from 'react-router-dom';

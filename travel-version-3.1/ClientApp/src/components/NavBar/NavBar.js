@@ -4,6 +4,7 @@ import '../NavBar/NavBar.css';
 import { Menu, Dropdown, Icon, Responsive, DropdownDivider, Segment } from 'semantic-ui-react';
 
 export default class NavBar extends Component {
+
     render() {
         return (
 
@@ -25,7 +26,7 @@ export default class NavBar extends Component {
                                 <Link to="/AirTicket"><Dropdown.Item>Air Ticketing</Dropdown.Item></Link>
                                 <Dropdown.Item as={Link} to="/VisaConsultancy">Visa Consultancy</Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/ImmConsultancy">Immigration Consultancy</Dropdown.Item>
-                                <Dropdown.Item as={Link} to="/">Umrah & Ziarah Packages</Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/packages">Umrah & Ziarah Packages</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                         <Dropdown item as={Link} to="/AirTicket" className="navText" trigger="Air Ticketing" simple>
@@ -74,9 +75,9 @@ export default class NavBar extends Component {
                                 <Dropdown.Item as={Link} to="/Ireland">Irеlаnd</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
-                        <Dropdown as={Link} to="/" className="navText" item trigger="Umrah & Ziarah Packages" simple>
+                        <Dropdown as={Link} to="/packages" className="navText" item trigger="Umrah & Ziarah Packages" simple>
                             <Dropdown.Menu>
-                                <Dropdown.Item as={Link} to="/">Umrah Packages</Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/packages">Umrah Packages</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                         <Dropdown as={Link} to="/travelAndTour" className="navText" item trigger="Travel & Tour" simple>
@@ -110,7 +111,7 @@ export default class NavBar extends Component {
                                     <Dropdown.Item as={Link} to="/AirTicket">Air Ticketing</Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/VisaConsultancy">Visa Consultancy</Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/ImmConsultancy">Immigration Consultancy</Dropdown.Item>
-                                    <Dropdown.Item as={Link} to="/">Umrah & Ziarah Packages</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/packages">Umrah & Ziarah Packages</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             <Dropdown item as={Link} to="/AirTicket" className="navText" trigger="Air Ticketing" simple>
@@ -174,9 +175,9 @@ export default class NavBar extends Component {
                                     <Dropdown.Item as={Link} to="/Ireland">Irеlаnd</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
-                            <Dropdown as={Link} to="/" className="navText" item trigger="Umrah & Ziarah Packages" simple>
+                            <Dropdown as={Link} to="/packages" className="navText" item trigger="Umrah & Ziarah Packages" simple>
                                 <Dropdown.Menu>
-                                    <Dropdown.Item as={Link} to="/">Umrah Packages</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/packages">Umrah Packages</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             <Menu.Item as={Link} to="/businessInvitation" className="navText" name="Business Invitation" />
@@ -209,7 +210,7 @@ export default class NavBar extends Component {
                                         <Dropdown.Item as={Link} to="/AirTicket">Air Ticketing</Dropdown.Item>
                                         <Dropdown.Item as={Link} to="/VisaConsultancy">Visa Consultancy</Dropdown.Item>
                                         <Dropdown.Item as={Link} to="/ImmConsultancy">Immigration Consultancy</Dropdown.Item>
-                                        <Dropdown.Item as={Link} to="/">Umrah & Ziarah Packages</Dropdown.Item>
+                                        <Dropdown.Item as={Link} to="/packages">Umrah & Ziarah Packages</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown.Item>
                                 {/*Air Tickting*/}
@@ -255,12 +256,12 @@ export default class NavBar extends Component {
                                     </Dropdown.Menu>
                                 </Dropdown.Item>
                                 {/*Umrah*/}
-                                <Dropdown.Item as={Link} to="/">
+                                <Dropdown.Item as={Link} to="/packages">
                                     <Icon name='dropdown' />
                                     <span>Umrah & Ziarah Packages</span>
 
                                     <Dropdown.Menu>
-                                        <Dropdown.Item as={Link} to="/">Umrah Packages</Dropdown.Item>
+                                        <Dropdown.Item as={Link} to="/packages">Umrah Packages</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown.Item>
                                 {/*Travle*/}

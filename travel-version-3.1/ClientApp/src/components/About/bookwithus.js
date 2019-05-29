@@ -1,5 +1,5 @@
-﻿import React, { Component } from 'react';
-import { Row, Col } from 'reactstrap';
+﻿import React, { } from 'react';
+import { Row} from 'reactstrap';
 import "./about.css";
 const Book = () => {
     return (

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { } from 'react';
 import './contact.css';
 import { Segment, Icon, Header, Grid, Container, Form, Input, TextArea, Button, Divider, Image } from 'semantic-ui-react';
 import image_logo from './image_used.jpg';

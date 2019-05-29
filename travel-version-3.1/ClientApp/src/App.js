@@ -32,6 +32,7 @@ import Schengen from './components/Immigration_consultancy/Schengen';
 import Ireland from './components/Immigration_consultancy/Ireland';
 import register from './components/Login/register';
 import AirTicket from './components/Air_Ticketing/Air_Ticketing';
+import Packages from './components/Umrah_Ziarah_Packages/Packages';
 
 
 export default class App extends Component {
@@ -69,6 +70,7 @@ export default class App extends Component {
                 <Route path="/America" component={America} />
                 <Route path='/signup' component={register} />
                 <Route path='/AirTicket' component={AirTicket} />
+                <Route path='/packages' component={Packages} />
             </Layout>
         );
     }
